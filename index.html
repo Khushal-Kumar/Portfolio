@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushal Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar-container">
+                <div class="logo">Khushal's Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Home Section -->
+    <section id="home" class="home-card">
+        <div class="home-content">
+            <img src="images/khushal.jpg" alt="Khushal Kumar">
+            <div class="home-text">
+                <h1>Hi, I'm Khushal Kumar</h1>
+                <p>BTech CSE student at Central University of Haryana. Passionate about coding and development, with skills in C++, Python, SQL, HTML, CSS, and JavaScript.</p>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+        <section id="about" class="about">
+            <h2>About Me</h2><br>
+            <div class="about-content">
+                <p>
+                    Hello! 👋 I’m <strong>Khushal Kumar</strong>, a passionate and dedicated BTech Computer Science Engineering student at Central University of Haryana. I have a strong foundation in programming, web development, and problem-solving, with hands-on experience in building both front-end and back-end projects.
+                </p>
+                <p>
+                    My technical proficiency spans <strong>HTML, CSS, JavaScript, SQL, Python, and C++</strong>, which I use to craft efficient and user-friendly web applications. I enjoy transforming ideas into reality through clean, scalable code and innovative solutions.
+                </p>
+                <p>
+                    Beyond technical skills, I take pride in my <strong>creativity, teamwork, and problem-solving abilities</strong>. Whether collaborating with peers on projects or tackling complex challenges, I thrive in dynamic and solution-driven environments.
+                </p>
+                <p>
+                    I am also a proud <strong>member of the IEEE student branch</strong>, where I collaborate with fellow tech enthusiasts, contributing to innovative projects and staying updated with the latest industry trends.
+                </p>
+                <p>
+                    Currently, I am exploring Python programming and continuously expanding my expertise in web development and software engineering. My goal is to contribute to meaningful and impactful tech solutions, bringing creativity and efficiency to every project I undertake.
+                </p>
+            </div>
+        </section>
+        <section id="skills" class="container">
+            <h2>Skills</h2><br>
+            <!-- Technical Skills -->
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <p>HTML</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>CSS</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>JavaScript</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>SQL</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Python</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>C++</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Professional Skills -->
+                <div class="skills-category">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <p>Creativity</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Problem Solving</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Communication</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Teamwork</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-container">
+        
+                    <!-- PROJECT 1: Calculator -->
+                    <div class="project-card">
+                        <img src="images/calculator.jpg" alt="Calculator Project">
+                        <h3>Calculator</h3>
+                        <p>A web-based calculator built using HTML, CSS, and JavaScript.</p>
+                        <button class="view-more-btn" onclick="openModal('modal-calculator')">View More</button>
+                    </div>
+        
+                    <!-- PROJECT 2: Hotel Management System -->
+                    <div class="project-card">
+                        <img src="images/hotel.webp" alt="Hotel Management System">
+                        <h3>Hotel Management System</h3>
+                        <p>A dynamic website using HTML, CSS, JavaScript, and SQL for database management.</p>
+                        <button class="view-more-btn" onclick="openModal('modal-hotel')">View More</button>
+                    </div>
+        
+                </div>
+            </div>
+        
+            <!-- MODAL SECTION -->
+            <div id="modal-calculator" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal('modal-calculator')">&times;</span>
+                    <h2>Calculator Project</h2>
+                    <p>
+                        This is a fully functional web-based calculator designed with HTML, CSS, and JavaScript.
+                        It supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
+                    </p>
+                    <ul>
+                        <li><strong>Technologies:</strong> HTML, CSS, JavaScript</li>
+                        <li><strong>Features:</strong> Real-time calculation, error handling, responsive design</li>
+                        <li><strong>GitHub Link:</strong> <a href="https://github.com/PXZGODXD/Calculator">View Repository</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div id="modal-hotel" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal('modal-hotel')">&times;</span>
+                    <h2>Hotel Management System</h2>
+                    <p>
+                        This project is a fully-fledged hotel management website that allows users to book rooms, manage reservations, and view hotel details.
+                    </p>
+                    <ul>
+                        <li><strong>Technologies:</strong> HTML, CSS, JavaScript, SQL</li>
+                        <li><strong>Features:</strong> Room booking, data storage, user authentication</li>
+                        <li><strong>GitHub Link:</strong> <a href="#">View Repository</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:khushalkumarsk@gmail.com">khushalkumarsk@gmail.com</a></p>
+            <p>Phone: <a href="tel:+917409138501">+91 7409138501</a></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Khushal Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
